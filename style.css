@@ -1,0 +1,40 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Rubik, sans-serif;
+    background-color: whitesmoke;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 14px;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: bold;
+}
+
+h1 {
+    letter-spacing: 5px;
+}
+
+.image-container {
+    margin: 10px 30%;
+}
+
+.image-container img {
+    width: 100%;
+    margin-top: 5px;
+}
+
+@media screen and (max-width:600px) {
+    h1 {
+        font-size: 10px;
+    }
+
+    .image-container {
+        margin: 10px;
+    }
+}
