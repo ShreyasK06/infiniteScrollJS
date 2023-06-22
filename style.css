@@ -17,7 +17,16 @@ p {
 }
 
 h1 {
+    width: 100vh;
     letter-spacing: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 6px solid black;
+    border-radius: 10px;
+}
+
+a {
+    color: black;
 }
 
 .image-container {
